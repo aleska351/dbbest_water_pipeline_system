@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'com.goncharenko'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'com.opencsv', name: 'opencsv', version: '5.2'
+    compile group: 'com.h2database', name: 'h2', version: '1.4.200'
+}
